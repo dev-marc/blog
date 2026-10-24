@@ -134,4 +134,4 @@ Daar zit ook mijn ongemak uit leerpunt 3. Het gaat niet alleen om dit ene projec
 
 - Bosman & Ongena (2026), [De paradox van het ICT-onderwijs](https://www.themahogeronderwijs.org/artikel/110-4310_De-paradox-van-het-ICT-onderwijs). Th&ma, 7 juli 2026.
 - Heck (2026), [Competences for the AI-Augmented Software Engineer](https://fontysblogt.nl/author/petraheck/). Fontys blog, 3 juni 2026.
-- Hermans (2026), [Leer coderen omdat het leuk is!](https://tweakers.net/plan/4864/felienne-hermans-op-de-dev-summit-over-ai-en-code-leer-het-omdat-het-leuk-is.html?referrer=https%3A%2F%2Fwww.felienne.nl%2Fvierkante-ogen%2F)). Tweakers Dev Summit, 21 oktober 2026.
+- Hermans (2026), [Leer coderen omdat het leuk is!](https://tweakers.net/plan/4864/felienne-hermans-op-de-dev-summit-over-ai-en-code-leer-het-omdat-het-leuk-is.html?referrer=https%3A%2F%2Fwww.felienne.nl%2Fvierkante-ogen%2F). Tweakers Dev Summit, 21 oktober 2026.

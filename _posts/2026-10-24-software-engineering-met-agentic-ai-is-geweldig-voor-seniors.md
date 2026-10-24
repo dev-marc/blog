@@ -79,9 +79,16 @@ Als laatste stap heb ik de workflow volledig geautomatiseerd in GitHub. Want wat
 
 Daarnaast heeft Claude guardrails gekregen: welke bestanden mag je wel aanpassen, en welke nooit. Alle aanpassingen blijven zo volledig traceerbaar.
 
-![Een issue met het label claude, opgepakt door Claude op GitHub]({{ "/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/github-issue.png" | relative_url }}){: width="320"}
-
-*Een issue met het label `claude`, opgepakt door Claude op GitHub*
+<div class="image-row">
+  <figure>
+    <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/github-issue.png' | relative_url }}" alt="Een issue met het label claude, opgepakt door Claude op GitHub">
+    <figcaption>Een issue met het label <code>claude</code>, opgepakt door Claude op GitHub</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/intents.png' | relative_url }}" alt="De map .intents in de repository, met een map per wijziging">
+    <figcaption>De map <code>.intents</code> in de repository, met een map per wijziging</figcaption>
+  </figure>
+</div>
 
 ## Leerpunt 1: Terugsnoeien van tests & texts 🧑‍🌾
 

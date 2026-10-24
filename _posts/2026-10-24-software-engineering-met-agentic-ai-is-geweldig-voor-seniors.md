@@ -59,7 +59,7 @@ De output beoordelen bleek lastiger. Ik ben dus geen PHP-expert, en of Laravel o
 
 Al snel begon ik al allerlei (niet) functionele aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie met `WEBP` en `srcset`, responsive design). De code bekeek ik af en toe, omdat het soms moest van mezelf. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak ook met goede suggesties en denkt mee hoe dit te bereiken.
 
-*Een voor- en na met mijn favoriete corsowagen: [Feniks, Buurtschapp Tiggelaar, winnaar 2025](https://archief.corsozundert.nl/wagen.php?id=1798)*
+*Een na- en voor met mijn favoriete corsowagen: [Feniks, Buurtschapp Tiggelaar, winnaar 2025](https://archief.corsozundert.nl/wagen.php?id=1798)*
 <div class="image-row">
   <figure>
     <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png' | relative_url }}" alt="De nieuwe versie: de pagina van Feniks (2025) in Laravel en Tailwind CSS">

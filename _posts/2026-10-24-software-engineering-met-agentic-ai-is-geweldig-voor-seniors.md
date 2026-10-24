@@ -90,7 +90,7 @@ Daarnaast heeft Claude guardrails gekregen: welke bestanden mag je wel aanpassen
   </figure>
 </div>
 
-## Leerpunt 1: Terugsnoeien van tests & texts 🧑‍🌾
+## Leerpunt 1: Reduceren tests & texts 🧑‍🌾
 
 Wat ik merk, ook bij studenten, is dat Claude (of Codex for that matter) een handje heeft van overbodig compleet willen zijn en zichzelf te willen beschermen tegen fouten.
 - De hoeveelheid tests, zelfs voor triviale zaken als redirects, groeit zo enorm.
@@ -100,7 +100,7 @@ Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, wa
 
 Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configuratie opties, commentaar en de README drastisch terug te snoeien. Beperk het tot de essentie: wat moet de volgende developer (of jijzelf over een paar jaar) weten voordat deze aan de slag kan met deze codebase en denk goed na over wat er echt niet kapot mag gaan om zo de hoeveel tijd tests beperkt.
 
-## Leerpunt 2: Code begrijpen kost tijd en energie 🥲
+## Leerpunt 2: Code begrijpen door enkel te lezen is niet leuk 🥲
 
 Ik zag een berg tests, en relatief eenvoudige PHP code. De structuur van Laravel was mij onbekend, dus ja, waar zit dan die verbinding met de database? Een vraag die ik graag stel aan eerstejaarsstudenten. Als je stuurt op de output (een werkende webapplicatie) is het minder 'leuk' om naar de code te kijken. Daarom heb ik actief gestuurd op documentatie, zodat ik de oplossing en de werkwijze zelf begrijp. 
 

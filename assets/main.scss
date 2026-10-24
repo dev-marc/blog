@@ -1,0 +1,97 @@
+---
+# Overschrijft assets/main.scss van minima: donker thema.
+---
+
+$text-color:       #d6d6d6;
+$background-color: #16181b;
+$brand-color:      #6cb6ff;
+
+$grey-color:       #9aa0a6;
+$grey-color-light: #30343a;
+$grey-color-dark:  #c9d1d9;
+
+$code-background:  #1f2328;
+
+@import "minima";
+
+html {
+  color-scheme: dark;
+}
+
+a:visited {
+  color: darken($brand-color, 8%);
+}
+
+.site-title,
+.site-title:visited {
+  color: $grey-color-dark;
+}
+
+.site-nav .page-link {
+  color: $text-color;
+}
+
+@include media-query($on-palm) {
+  .site-nav {
+    background-color: $background-color;
+  }
+}
+
+// Code: minima zet hier vaste lichte achtergronden.
+pre,
+code {
+  background-color: $code-background;
+  border-color: $grey-color-light;
+}
+
+table {
+  color: $text-color;
+
+  tr:nth-child(even) {
+    background-color: lighten($background-color, 3%);
+  }
+
+  th {
+    background-color: lighten($background-color, 6%);
+    border-color: $grey-color-light;
+  }
+
+  td {
+    border-color: $grey-color-light;
+  }
+}
+
+// Syntax highlighting (Rouge), donker palet.
+.highlight,
+.highlighter-rouge .highlight {
+  background: $code-background;
+  color: #e6edf3;
+
+  .c, .ch, .cm, .c1, .cs, .cpf { color: #8b949e; font-style: italic }
+  .cp                         { color: #ff7b72; font-weight: normal }
+  .err                        { color: #f85149; background-color: transparent }
+  .k, .kc, .kd, .kn, .kp, .kr { color: #ff7b72; font-weight: normal }
+  .kt                         { color: #ffa657 }
+  .o, .ow                     { color: #ff7b72; font-weight: normal }
+  .m, .mb, .mf, .mh, .mi, .il, .mo { color: #79c0ff }
+  .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .s1, .ss { color: #a5d6ff }
+  .sr                         { color: #7ee787 }
+  .na                         { color: #79c0ff }
+  .nb, .bp                    { color: #ffa657 }
+  .nc, .ne, .nn               { color: #f0883e; font-weight: normal }
+  .nd                         { color: #d2a8ff }
+  .nf, .fm                    { color: #d2a8ff; font-weight: normal }
+  .ni                         { color: #ffa657 }
+  .nl                         { color: #79c0ff }
+  .no                         { color: #79c0ff; font-weight: normal }
+  .nt                         { color: #7ee787 }
+  .nv, .vc, .vg, .vi, .vm     { color: #ffa657 }
+  .gd                         { color: #ffdcd7; background-color: #67060c }
+  .gi                         { color: #aff5b4; background-color: #033a16 }
+  .ge                         { font-style: italic }
+  .gs                         { font-weight: bold }
+  .gh, .gu                    { color: #79c0ff; font-weight: bold }
+  .gr, .gt                    { color: #f85149 }
+  .go, .gp                    { color: #8b949e }
+  .w                          { color: #6e7681 }
+}

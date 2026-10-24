@@ -1,0 +1,13 @@
+# Ruwe Medium-export (bevat persoonsgegevens), niet in git
+.export/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+
+# Conversiescripts
+scripts/node_modules/

@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": [
+        "run", "--rm", "--name", "blog-jekyll",
+        "-p", "4010:4000",
+        "-v", "C:/Projects/dev-marc/blog:/srv/site",
+        "-w", "/srv/site",
+        "-e", "BUNDLE_PATH=vendor/bundle",
+        "ruby:3.3",
+        "bundle", "exec", "jekyll", "serve",
+        "--host", "0.0.0.0", "--force_polling"
+      ],
+      "port": 4010,
+      "autoPort": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+title: Marc Mathijssen
+author: Marc Mathijssen
+description: >-
+  Articles about .NET, Azure and software development.
+url: ""      # bijv. https://<gebruiker>.github.io
+baseurl: ""  # wordt in de GitHub-workflow automatisch gezet
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+
+minima:
+  social_links:
+    twitter: marcmathijssen
+
+exclude:
+  - .export/
+  - medium-export/
+  - scripts/
+  - CLAUDE.md
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

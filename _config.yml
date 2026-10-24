@@ -2,7 +2,7 @@ title: Marc Mathijssen
 author: Marc Mathijssen
 description: >-
   Articles about .NET, Azure and software development.
-url: ""      # bijv. https://<gebruiker>.github.io
+url: "https://www.marcmathijssen.nl"
 baseurl: ""  # wordt in de GitHub-workflow automatisch gezet
 
 theme: minima

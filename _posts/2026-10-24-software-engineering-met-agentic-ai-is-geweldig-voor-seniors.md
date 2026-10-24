@@ -51,7 +51,7 @@ Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 
 En vervolgens liet ik Claude Code zijn werk doen en het uitprogrammeren.
 
-## De output en verdere automatisering van het proces 🌺
+## Het resultaat en introductie agentic workflow 🌺🤖
 
 Na twee intents en een paar uurtjes was de volledige oplossing herschreven door Claude. Indrukwekkend. Dit had mij minimaal een week gekost.
 

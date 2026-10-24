@@ -117,7 +117,7 @@ Uitleggen: deels. De werkwijze kan ik uitleggen. Of ik de code kan uitleggen, ha
 
 Dat verschil is interessant. Michael Polanyi schreef: “we can know more than we can tell”. Een groot deel van wat een ervaren developer weet, is tacit knowledge: kennis die je niet kunt opschrijven, alleen kunt opbouwen door het te doen. Wat moet ik vragen? Wat laat ik buiten scope? 
 
-In Laravel was ik een beginner, maar in software engineering niet. Claude nam het beginnerswerk over, terwijl ik het oordeel van de expert inbracht. Daarom werkte het voor mij.
+In Laravel was ik een beginner, maar in software engineering niet. Claude nam het beginnerswerk over, terwijl ik het oordeel van de expert inbracht, en kennis over webdevelopment, cloudhosting op Azure en GitHub workflows. Daarom werkte het voor mij.
 
 Een junior heeft dat oordeel nog niet. En het ontstaat juist in de stadia die AI nu zo makkelijk laat overslaan: het worstelen, het fout doen, het zelf de verbinding met de database zoeken. Als we juniors die meters niet meer laten maken, leveren we mensen af die output kunnen genereren, maar niet weten wat ze moeten vragen.
 

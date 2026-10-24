@@ -7,11 +7,11 @@ description: "Wat ik leerde van het moderniseren van het Corso Zundert archief m
 image: /assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png
 ---
 
-Het voelt een beetje als een 'guess who's back', maar schrijven blijft een manier om denken te structureren en daarom vind ik het 'ironisch genoeg' een fijne manier om wat ik geleerd heb de afgelopen dagen over AI-augmented software engineering om te zetten in iets wat ik later kan teruglezen.
+Het voelt een beetje als een 'guess who's back', maar schrijven blijft een manier om denken te structureren en daarom vind ik het 'ironisch genoeg' een fijne manier om wat ik geleerd heb de afgelopen dagen over software engineering m.b.v. AI om te zetten in iets wat ik later kan teruglezen.
 
 De voorgaande posts (laatste in 2019, origineel op @Medium) waren 'technische recepten' die ik vanwege dezelfde reden schreef. Wel in het Engels, omdat ik toen dacht dat ik een internationaal publiek zou bedienen 😂 .
 
-Inmiddels is er een hoop veranderd. Ik ben docent Software Engineering geworden aan de Avans University of Applied Sciences. Dit in een buitengewoon interessante tijd. Het eerste jaar zag ik studenten nog traditioneel worstelen met code, en daarna veranderde het langzaam in worstelen met code, maar dan dankzij (of ondanks) AI. Het is een beroep dat mij goed ligt. Het contact met de studenten en collega's i.c.m. een technisch vak gaan goed samen met mijn van nature behulpzame karakter.
+Inmiddels is er een hoop veranderd. Ik ben docent Software Engineering aan de Avans University of Applied Sciences. Dit in een buitengewoon interessante tijd. Het eerste jaar zag ik studenten nog traditioneel worstelen met code, en daarna veranderde het langzaam in worstelen met code, maar dan dankzij (of ondanks) AI. Het is een beroep dat mij goed ligt. Het contact met de studenten en collega's i.c.m. een technisch vak gaan goed samen met mijn energie om mensen te willen helpen.
 
 ## Wat ik wilde leren 🧑‍🎓
 
@@ -49,22 +49,25 @@ Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 - Een spec (wat zijn de specificaties en welke keuzes zitten hierin)
 - Een plan (welke stappen gaat Claude uitvoeren)
 
+En vervolgens liet ik Claude Code zijn werk doen.
+
 ## De output 🌺
 
 Na twee intents en een paar uurtjes was de volledige oplossing geschreven door Claude. Indrukwekkend. Dit had mij minimaal een paar dagen gekost.
 
 De output beoordelen bleek lastiger. Ik ben dus geen PHP-expert.
 
-Maar toch begon ik al snel allerlei aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie, responsive design). De code bekeek ik af en toe, als ik mezelf ertoe dwong. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak met goede suggesties en denkt mee hoe dit te bereiken.
+Maar toch begon ik al snel allerlei aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie met `WEBP` en `srcset`, responsive design). De code bekeek ik af en toe, omdat het soms moest van mezelf. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak met goede suggesties en denkt mee hoe dit te bereiken.
 
+*Een voorbeeld van mijn persoonlijk favoriete corsowagen ooit (tot nu toe): Feniks, Buurtschapp Tiggelaar, winnaar 2025.*
 <div class="image-row">
   <figure>
     <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png' | relative_url }}" alt="De nieuwe versie: de pagina van Feniks (2025) in Laravel en Tailwind CSS">
-    <figcaption>De nieuwe versie: de pagina van Feniks (2025) in Laravel en Tailwind CSS</figcaption>
+    <figcaption>De nieuwe versie (in Laravel en Tailwind CSS)</figcaption>
   </figure>
   <figure>
     <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-oud.webp' | relative_url }}" alt="De oude versie van dezelfde pagina">
-    <figcaption>De oude versie van dezelfde pagina</figcaption>
+    <figcaption>De oude versie</figcaption>
   </figure>
 </div>
 

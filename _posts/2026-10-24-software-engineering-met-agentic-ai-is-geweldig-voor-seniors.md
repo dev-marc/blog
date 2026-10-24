@@ -37,10 +37,10 @@ Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maa
 
 Ik maakte een repo, kopieerde de legacy code in een aparte map en vertelde Claude over mijn intenties. Samen kwamen we tot de conclusie dat:
 
-- de database & media buiten scope valt 👉 De datastructuur is, ondanks wat kleine imperfecties, niet verkeerd. Als we de huidige database blijven gebruik werd de scope een stuk beperkter en werd het eenvoudiger om de nieuwe versie te testen en te deployen.
-- Laravel is het meest geschikte framework voor dit doel 👉 of zoals ze zelf zeggen "The clean stack for artisans & agents".
-- De originele app blijft als twin ernaast vanuit dezelfde codebase 👉 handig bij dit migratie scenario
-- Volledig containeriseren: lokale MySQL database, legacy app, Laravel app 👉 minder lokale dev dependencies 🥳
+- de database & media buiten scope viel 👉 De datastructuur is, ondanks wat kleine imperfecties, niet verkeerd. Als we de huidige database blijven gebruik werd de scope een stuk beperkter en werd het eenvoudiger om de nieuwe versie te testen en te deployen.
+- Laravel is het meest geschikte framework voor dit doel was 👉 of zoals ze zelf zeggen "The clean stack for artisans & agents".
+- de originele app blijft als twin ernaast vanuit dezelfde codebase 👉 handig bij dit migratie scenario
+- de oplossing volledig containeriseren: lokale MySQL database, legacy app, Laravel app 👉 minder lokale dev dependencies 🥳
 
 Met deze opzet (legacy code naast de laravel code) voorzag ik Claude van voldoende context (de code is de beste documentatie right?) en een manier om 'Parity Tests' uit te voeren 👉 tonen de nieuwe views hetzelfde als de oude views.
 
@@ -51,7 +51,7 @@ Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 
 En vervolgens liet ik Claude Code zijn werk doen en het uitprogrammeren.
 
-## De output 🌺
+## De output en verdere automatisering van het proces 🌺
 
 Na twee intents en een paar uurtjes was de volledige oplossing herschreven door Claude. Indrukwekkend. Dit had mij minimaal een week gekost.
 
@@ -77,7 +77,7 @@ Als laatste stap heb ik de workflow volledig geautomatiseerd in GitHub. Want wat
 - Intent beoordelen. Claude schrijft de intent en opent een draft-PR met een Nederlandse samenvatting. 
 - Spec en output beoordelen. Claude schrijft de spec en het plan, bouwt de wijziging en zet in een reactie op de PR wat er gebouwd is. Met het label `testomgeving` wordt deze ook op een aparte testomgeving geplaatst. Deze optie wil ik ook aanbieden voor developers die liever op de lokale PC of met de hand blijven werken, en zo kunnen beide workflows blijven bestaan.
 
-Daarnaast heeft Claude guardrails gekregen: welke bestanden mag je wel aanpassen, en welke nooit. Alle aanpassingen blijven zo volledig traceerbaar.
+Daarnaast heeft Claude guardrails gekregen: welke bestanden mag je wel aanpassen, en welke nooit
 
 <div class="image-row">
   <figure>
@@ -98,7 +98,7 @@ Wat ik merk, ook bij studenten, is dat Claude (of Codex for that matter) een han
 
 Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, waardoor code-bases als deze al snel intimiderend groot worden. De complexiteit zit dan niet in de code (het bleef bij enkele views en modellen) maar juist in de hoeveelheid tests & tekst die ermee gepaard gaan. Heb je echt bij iedere functie 5 regels commentaar nodig met uitleg en verwijzing naar de intent? Is het nodig dat kleine bugfixes in de output blijvend getest worden? 
 
-Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configuratie opties, commentaar en de README drastisch terug te snoeien. Beperk het tot de essentie: wat moet de volgende developer (of jijzelf over een paar jaar) weten voordat hij aan de slag kan met deze codebase en denk goed na over wat er echt niet kapot mag gaan om zo de hoeveel tijd tests beperkt.
+Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configuratie opties, commentaar en de README drastisch terug te snoeien. Beperk het tot de essentie: wat moet de volgende developer (of jijzelf over een paar jaar) weten voordat deze aan de slag kan met deze codebase en denk goed na over wat er echt niet kapot mag gaan om zo de hoeveel tijd tests beperkt.
 
 ## Leerpunt 2: Code begrijpen kost tijd en energie 🥲
 

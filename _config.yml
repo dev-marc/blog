@@ -13,10 +13,6 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-minima:
-  social_links:
-    twitter: marcmathijssen
-
 exclude:
   - .export/
   - medium-export/

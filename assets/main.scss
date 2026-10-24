@@ -95,3 +95,18 @@ table {
   .go, .gp                    { color: #8b949e }
   .w                          { color: #6e7681 }
 }
+
+// Profielfoto naast de sitetitel (zie _includes/header.html).
+.site-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+// Paarse balk boven de header (minima: $grey-color-dark).
+.site-header {
+  border-top-color: #8957e5;
+}

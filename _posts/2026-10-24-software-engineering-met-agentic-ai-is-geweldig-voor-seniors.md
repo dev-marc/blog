@@ -35,14 +35,14 @@ Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maa
 
 ## De werkwijze 🪏
 
-Ik maakte een repo, kopieerde de legacy code in een aparte map en vertelde Claude over mijn intenties. Samen kwamen we tot de conclusie dat de aanpak als volgt was:
+Ik maakte een repo, kopieerde de legacy code in een aparte map en vertelde Claude over mijn intenties. Samen kwamen we tot de conclusie dat:
 
-- De database & media buiten scope laten. De datastructuur is, ondanks wat kleine imperfecties, niet verkeerd. Daarnaast biedt het de mogelijkheid om eenvoudig de nieuwe versie te testen & te deployen
-- Laravel is het meest geschikte framework voor dit doel
-- Volledig containeriseren: lokale MySQL database, legacy app, Laravel app
-- De originele app blijft dus als twin ernaast draaien
+- de database & media buiten scope valt 👉 De datastructuur is, ondanks wat kleine imperfecties, niet verkeerd. Als we de huidige database blijven gebruik werd de scope een stuk beperkter en werd het eenvoudiger om de nieuwe versie te testen en te deployen.
+- Laravel is het meest geschikte framework voor dit doel 👉 of zoals ze zelf zeggen "The clean stack for artisans & agents".
+- De originele app blijft als twin ernaast vanuit dezelfde codebase 👉 handig bij dit migratie scenario
+- Volledig containeriseren: lokale MySQL database, legacy app, Laravel app 👉 minder lokale dev dependencies 🥳
 
-Met deze opzet voorzag ik Claude van voldoende context (de code is de beste documentatie right?) en een manier om 'Parity Tests' uit te voeren: tonen de nieuwe views hetzelfde als de oude views.
+Met deze opzet (legacy code naast de laravel code) voorzag ik Claude van voldoende context (de code is de beste documentatie right?) en een manier om 'Parity Tests' uit te voeren 👉 tonen de nieuwe views hetzelfde als de oude views.
 
 Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 - Een intent (wat is het doel)

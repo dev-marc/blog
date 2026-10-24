@@ -4,7 +4,7 @@ title: "Software Engineering met Agentic AI is geweldig… voor seniors"
 date: 2026-10-24
 tags: [legacy, php, ai, claude, modernisering]
 description: "Wat ik leerde van het moderniseren van het Corso Zundert archief met Claude en het AI-native SDLC playbook."
-image: /assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png
+image: /assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/social-1945.webp
 ---
 
 Het voelt een beetje als een 'guess who's back', maar schrijven blijft een manier om denken te structureren en daarom vind ik het 'ironisch genoeg' een fijne manier om wat ik geleerd heb de afgelopen dagen over software engineering m.b.v. AI om te zetten in iets wat ik later kan teruglezen.

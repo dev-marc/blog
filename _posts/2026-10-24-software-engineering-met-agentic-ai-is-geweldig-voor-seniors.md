@@ -31,7 +31,7 @@ Het [Corso Archief](https://archief.corsozundert.nl/) is een relatief eenvoudige
 
 De code was legacy PHP en met veel liefde geconstrueerd. De structuur was soms minder optimaal, en dat kwam de leesbaarheid en de performance niet altijd ten goede.
 
-Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maar een betere reden om het te doen.
+Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maar een betere reden om deze applicatie aan te pakken.
 
 ## De werkwijze 🪏
 
@@ -42,22 +42,22 @@ Ik maakte een repo, kopieerde de legacy code in een aparte map en vertelde Claud
 - Volledig containeriseren: lokale MySQL database, legacy app, Laravel app
 - De originele app blijft dus als twin ernaast draaien
 
-Met deze opzet voorzag ik Claude van voldoende context (de documentatie is de code right?) en een manier om 'Parity Tests' uit te voeren: tonen de nieuwe views hetzelfde als de oude views.
+Met deze opzet voorzag ik Claude van voldoende context (de code is de beste documentatie right?) en een manier om 'Parity Tests' uit te voeren: tonen de nieuwe views hetzelfde als de oude views.
 
 Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 - Een intent (wat is het doel)
 - Een spec (wat zijn de specificaties en welke keuzes zitten hierin)
 - Een plan (welke stappen gaat Claude uitvoeren)
 
-En vervolgens liet ik Claude Code zijn werk doen.
+En vervolgens liet ik Claude Code zijn werk doen en het uitprogrammeren.
 
 ## De output 🌺
 
-Na twee intents en een paar uurtjes was de volledige oplossing geschreven door Claude. Indrukwekkend. Dit had mij minimaal een paar dagen gekost.
+Na twee intents en een paar uurtjes was de volledige oplossing herschreven door Claude. Indrukwekkend. Dit had mij minimaal een week gekost.
 
-De output beoordelen bleek lastiger. Ik ben dus geen PHP-expert.
+De output beoordelen bleek lastiger. Ik ben dus geen PHP-expert, en of Laravel op deze wijze juist was ingezet? Ik vermoedde het. Ik zag componenten, services, models. Concepten die mij niet vreemd zijn uit andere frameworks. 
 
-Maar toch begon ik al snel allerlei aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie met `WEBP` en `srcset`, responsive design). De code bekeek ik af en toe, omdat het soms moest van mezelf. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak met goede suggesties en denkt mee hoe dit te bereiken.
+Al snel begon ik al allerlei (niet) functionele aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie met `WEBP` en `srcset`, responsive design). De code bekeek ik af en toe, omdat het soms moest van mezelf. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak ook met goede suggesties en denkt mee hoe dit te bereiken.
 
 *Een voorbeeld van mijn persoonlijk favoriete corsowagen ooit (tot nu toe): Feniks, Buurtschapp Tiggelaar, winnaar 2025.*
 <div class="image-row">
@@ -89,19 +89,19 @@ Wat ik merk, ook bij studenten, is dat Claude (of Codex for that matter) een han
 - De hoeveelheid tests, zelfs voor triviale zaken als redirects, groeit zo enorm.
 - De hoeveelheid tekst als code commentaar en in README's groeit en groeit.
 
-Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, waardoor code-bases als deze al snel intimiderend groot worden. De complexiteit zit dan niet in de code (het bleef bij enkele views en modellen) maar juist in de hoeveelheid tests & tekst die ermee gepaard gaat. Heb je echt bij iedere functie 5 regels commentaar nodig met uitleg en verwijzing naar de intent? Is het nodig dat kleine bugfixes in de output blijvend getest worden? 
+Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, waardoor code-bases als deze al snel intimiderend groot worden. De complexiteit zit dan niet in de code (het bleef bij enkele views en modellen) maar juist in de hoeveelheid tests & tekst die ermee gepaard gaan. Heb je echt bij iedere functie 5 regels commentaar nodig met uitleg en verwijzing naar de intent? Is het nodig dat kleine bugfixes in de output blijvend getest worden? 
 
 Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configuratie opties, commentaar en de README drastisch terug te snoeien. Beperk het tot de essentie: wat moet de volgende developer (of jijzelf over een paar jaar) weten voordat hij aan de slag kan met deze codebase en denk goed na over wat er echt niet kapot mag gaan om zo de hoeveel tijd tests beperkt.
 
 ## Leerpunt 2: Code begrijpen kost tijd en energie 🥲
 
-Ik zag een berg tests, en relatief eenvoudige PHP code. De structuur van Laravel was mij onbekend, dus ja, waar zit dan die verbinding met de database? Een vraag die ik graag stel aan eerstejaarsstudenten. Als je stuurt op de output (een werkende webapplicatie) is het minder 'leuk' om naar de code te kijken. Daarom heb ik actief gestuurd op documentatie, zodat ik de oplossing en de werkwijze zelf begrijp. Dit is wat onze studenten nog niet genoeg doen of kunnen.
+Ik zag een berg tests, en relatief eenvoudige PHP code. De structuur van Laravel was mij onbekend, dus ja, waar zit dan die verbinding met de database? Een vraag die ik graag stel aan eerstejaarsstudenten. Als je stuurt op de output (een werkende webapplicatie) is het minder 'leuk' om naar de code te kijken. Daarom heb ik actief gestuurd op documentatie, zodat ik de oplossing en de werkwijze zelf begrijp. 
 
 ## Leerpunt 3: De ethische kant is echt 🤕
 
 Gaandeweg besefte ik iets anders ...
 
-Voor een junior/medior kan het heel leuk en zingevend zijn om een groepje mensen te helpen met code die hun probleem oplost. Dit is ook altijd mijn grote drijfveer geweest. Het ging mij al niet echt om de code, al ben ik later gaan beseffen dat goede code het leven van alle stakeholders beter maakt. Het oplossen van problemen voor echte mensen leert je veel meer dan alleen coderen.
+Voor een junior/medior kan het heel leuk en zingevend zijn om een groepje mensen te helpen met code die hun probleem oplost. Dit is ook altijd mijn grote drijfveer geweest. Het ging mij al niet echt om de code, al ben ik later gaan beseffen dat goede code het leven van alle stakeholders fijner maakt. Het oplossen van problemen voor echte mensen leert je veel meer dan alleen coderen.
 
 Met deze "moderne werkwijze" vernietig ik een proces waar een andere junior developer veilig, leerzaam en zingevend werk had kunnen doen in een context waar mensen überhaupt blij zijn dat je een steentje bijdraagt (Corso Zundert draait volledig op vrijwilligers), en ik voelde mij dus ook schuldig over mijn aanpak.
 
@@ -121,7 +121,7 @@ In Laravel was ik een beginner, maar in software engineering niet. Claude nam he
 
 Een junior heeft dat oordeel nog niet. En het ontstaat juist in de stadia die AI nu zo makkelijk laat overslaan: het worstelen, het fout doen, het zelf de verbinding met de database zoeken. Als we juniors die meters niet meer laten maken, leveren we mensen af die output kunnen genereren, maar niet weten wat ze moeten vragen.
 
-Daar zit ook mijn ongemak uit leerpunt 3. Het gaat niet alleen om dit ene project. Het gaat om de plekken waar die stilzwijgende kennis werd opgebouwd. Een opleiding is slechts één van die plekken, en vaak het startpunt.
+Daar zit ook mijn ongemak uit leerpunt 3. Het gaat niet alleen om dit ene project. Het gaat om de plekken waar die stilzwijgend deze kennis werd opgebouwd. Een opleiding is slechts één van die plekken, en vaak het startpunt.
 
 ## Verder lezen 📚
 

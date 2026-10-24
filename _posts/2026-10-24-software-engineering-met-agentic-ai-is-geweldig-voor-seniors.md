@@ -104,7 +104,7 @@ Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configurat
 
 Ik zag een berg tests, en relatief eenvoudige PHP code. De structuur van Laravel was mij onbekend, dus ja, waar zit dan die verbinding met de database? Een vraag die ik graag stel aan eerstejaarsstudenten. Als je stuurt op de output (een werkende webapplicatie) is het minder 'leuk' om naar de code te kijken. Daarom heb ik actief gestuurd op documentatie, zodat ik de oplossing en de werkwijze zelf begrijp. 
 
-## Leerpunt 3: De ethische kant is echt 🤕
+## Leerpunt 3: De ethische kant bestaat echt 🤕
 
 Gaandeweg besefte ik iets anders ...
 

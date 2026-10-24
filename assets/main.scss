@@ -110,3 +110,25 @@ table {
 .site-header {
   border-top-color: #8957e5;
 }
+
+// Twee afbeeldingen naast elkaar in een post; op mobiel onder elkaar.
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: $spacing-unit / 2;
+
+  figure {
+    flex: 1 1 240px;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: $small-font-size;
+  }
+}

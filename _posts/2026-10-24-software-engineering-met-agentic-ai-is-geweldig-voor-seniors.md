@@ -4,6 +4,7 @@ title: "Software Engineering met Agentic AI is geweldig… voor seniors"
 date: 2026-10-24
 tags: [legacy, php, ai, claude, modernisering]
 description: "Wat ik leerde van het moderniseren van het Corso Zundert archief met Claude en het AI-native SDLC playbook."
+image: /assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png
 ---
 
 Het voelt een beetje als een 'guess who's back', maar schrijven blijft een manier om denken te structureren en daarom vind ik het 'ironisch genoeg' een fijne manier om wat ik geleerd heb de afgelopen dagen over AI-augmented software engineering om te zetten in iets wat ik later kan teruglezen.
@@ -29,10 +30,6 @@ Het doel was niet zozeer het omschrijven van een legacy-applicatie, maar vooral:
 Het [Corso Archief](https://archief.corsozundert.nl/) is een relatief eenvoudige applicatie met enkele views waarin informatie & media over alle voorgaande corso's te vinden is. Het is een schat aan informatie voor de corsoliefhebber en ook erg leuk om in te grasduinen.
 
 De code was legacy PHP en met veel liefde geconstrueerd. De structuur was soms minder optimaal, en dat kwam de leesbaarheid en de performance niet altijd ten goede.
-
-![De oude versie van het archief: de pagina van Feniks (2025)]({{ "/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-oud.webp" | relative_url }}){: width="320"}
-
-*De oude versie van het archief: de pagina van Feniks (2025)*
 
 Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maar een betere reden om het te doen.
 
@@ -60,9 +57,16 @@ De output beoordelen bleek lastiger. Ik ben dus geen PHP-expert.
 
 Maar toch begon ik al snel allerlei aspecten te verbeteren met nieuwe intents (laadtijden, media optimalisatie, responsive design). De code bekeek ik af en toe, als ik mezelf ertoe dwong. Het doorvoeren van verbeteringen is nog steeds even leuk, ook als de code voor je wordt geschreven. De aspecten die ik wilde verbeteren kwamen uit mijn hoofd, maar Claude komt vaak met goede suggesties en denkt mee hoe dit te bereiken.
 
-![De nieuwe versie: dezelfde pagina in Laravel en Tailwind CSS]({{ "/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png" | relative_url }}){: width="320"}
-
-*De nieuwe versie: dezelfde pagina in Laravel en Tailwind CSS*
+<div class="image-row">
+  <figure>
+    <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-nieuw.png' | relative_url }}" alt="De nieuwe versie: de pagina van Feniks (2025) in Laravel en Tailwind CSS">
+    <figcaption>De nieuwe versie: de pagina van Feniks (2025) in Laravel en Tailwind CSS</figcaption>
+  </figure>
+  <figure>
+    <img src="{{ '/assets/images/software-engineering-met-agentic-ai-is-geweldig-voor-seniors/archief-oud.webp' | relative_url }}" alt="De oude versie van dezelfde pagina">
+    <figcaption>De oude versie van dezelfde pagina</figcaption>
+  </figure>
+</div>
 
 Als laatste stap heb ik de workflow volledig geautomatiseerd in GitHub. Want wat ik op mijn PC in een prompt kan, kan een archief-beheerder (productowner) ook via een GitHub issue, en vaak zelfs beter. Als techneut wil ik wel grip houden op de code, dus implementeerde ik een 'agentic werkwijze' die als volgt werkt:
 

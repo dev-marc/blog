@@ -118,17 +118,16 @@ Ik begon met drie vragen: kan ik deze werkwijze toepassen, heb ik vertrouwen in 
 
 Toepassen: ja. Dat ging sneller en beter dan ik had verwacht. Na een paar uur stond er een werkende applicatie. Na drie dagen konden beheerders via een GitHub issue zelf wijzigingen laten bouwen.
 
-Vertrouwen: ja, maar niet omdat ik de code heb gelezen. Mijn vertrouwen kwam uit de opzet eromheen: de legacy-app als twin, de parity tests, een afgebakende scope, de guardrails en de keten van intent, spec en plan. Dat zijn geen PHP-vaardigheden. Het zijn keuzes die ik maakte omdat ik heb geleerd dat je een oplossing pas mag accepteren als je weet wat de voor- en nadelen zijn en hem veilig in productie kunt beheren, en later uitbouwen.
+Vertrouwen: ja, maar niet omdat ik een metaal model van de applicatie in mijn hoofd had door dat ik de code door- en door kende. 
+Vertrouwen omdat ik het proces kon volgen, de tests begreep, de scope veilig had afgebakend (guardrails, parity tests). Dat zijn geen PHP-vaardigheden. Ik vertrouw een applicatie pas als ik hem veilig in productie zou kunnen beheren en dat was hier het
 
-Uitleggen: deels. De werkwijze kan ik uitleggen. Of ik de code kan uitleggen, hangt af van de documentatie waar ik zelf op heb gestuurd. Waar die verbinding met de database precies zit, moest ik nog steeds opzoeken.
+Uitleggen: deels. De werkwijze kan ik uitleggen. Of ik de code kan uitleggen, een stuk minder. Waar die verbinding met de database precies zit, moest ik nog steeds opzoeken.
 
-Dat verschil is interessant. Michael Polanyi schreef: “we can know more than we can tell”. Een groot deel van wat een ervaren developer weet, is tacit knowledge: kennis die je niet kunt opschrijven, alleen kunt opbouwen door het te doen. Wat moet ik vragen? Wat laat ik buiten scope? 
+Het verschil met hoe ik voorheen een applicatie zou realiseren is interessant. "We can know more than we can tell", Een groot deel van wat een ervaren developer weet, is 'tacit knowledge': kennis die je niet kunt opschrijven, alleen kunt opbouwen door het te doen. 
 
-In Laravel was ik een beginner, maar in software engineering niet. Claude nam het beginnerswerk over, terwijl ik het oordeel van de expert inbracht, en kennis over webdevelopment, cloudhosting op Azure en GitHub workflows. Daarom werkte het voor mij.
+In Laravel ben ik een beginner, of zelfs minder dan dat nog, maar in software engineering niet. Claude nam het beginnerswerk over, terwijl ik mijn ervaring en kennis over webdevelopment, cloudhosting op Azure en GitHub workflows inbracht... daarom werkte het voor mij.
 
-Een junior heeft dat oordeel nog niet. En het ontstaat juist in de stadia die AI nu zo makkelijk laat overslaan: het worstelen, het fout doen, het zelf de verbinding met de database zoeken. Als we juniors die meters niet meer laten maken, leveren we mensen af die output kunnen genereren, maar niet weten wat ze moeten vragen.
-
-Daar zit ook mijn ongemak uit leerpunt 3. Het gaat niet alleen om dit ene project. Het gaat om de plekken waar die stilzwijgend deze kennis werd opgebouwd. Een opleiding is slechts één van die plekken, en vaak het startpunt.
+Wanneer je die kennis niet hebt, bouw je het pas op in de stadia die AI je nu zo makkelijk laat overslaan: het worstelen, het fout doen, het zelf configureren van de verbinding met de database. Daar zit ook mijn ongemak uit leerpunt 3. Het gaat niet alleen om dit ene project. Het gaat om de plekken waar deze kennis werd opgebouwd, waar werd geworsteld. Een opleiding is slechts één van die plekken, en vaak het startpunt.
 
 ## Verder lezen 📚
 

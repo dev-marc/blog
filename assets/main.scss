@@ -106,9 +106,20 @@ table {
   margin-right: 10px;
 }
 
-// Paarse balk boven de header (minima: $grey-color-dark).
+// Regenboogbalk boven de header. Een border kan geen gradient zijn,
+// dus de border blijft als ruimte staan en de balk ligt eroverheen.
 .site-header {
-  border-top-color: #8957e5;
+  border-top-color: transparent;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #e40303, #ff8c00, #ffed00, #008026, #24408e, #732982);
+  }
 }
 
 // Twee afbeeldingen naast elkaar in een post; op mobiel onder elkaar.

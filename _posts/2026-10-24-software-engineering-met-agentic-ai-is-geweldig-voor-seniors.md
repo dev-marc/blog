@@ -90,13 +90,11 @@ Daarnaast heeft Claude guardrails gekregen: welke bestanden mag je wel aanpassen
   </figure>
 </div>
 
-## Leerpunt 1: Reduceren tests & texts 🧑‍🌾
+## Leerpunt 1: Reduceren output 🧑‍🌾
 
-Wat ik merk, ook bij studenten, is dat Claude (of Codex for that matter) een handje heeft van overbodig compleet willen zijn en zichzelf te willen beschermen tegen fouten.
-- De hoeveelheid tests, zelfs voor triviale zaken als redirects, groeit zo enorm.
-- De hoeveelheid tekst als code commentaar en in README's groeit en groeit.
+"Programmeren is als tuinieren" hoorde ik ooit in een podcast: op bepaalde plekken mag de code groeien, op bepaalde plekken moet je het een beetje terugsnoeien. Het gaat altijd gepaard met aandacht. Wat ik merk, ook bij studenten, is dat Claude (of Codex for that matter) een handje heeft van overbodig compleet willen zijn en zichzelf te willen beschermen tegen fouten. Dit gaat gepaard met een enorme hoeveel output in de vorm van (test)code, commentaar en documentatie
 
-Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, waardoor code-bases als deze al snel intimiderend groot worden. De complexiteit zit dan niet in de code (het bleef bij enkele views en modellen) maar juist in de hoeveelheid tests & tekst die ermee gepaard gaan. Heb je echt bij iedere functie 5 regels commentaar nodig met uitleg en verwijzing naar de intent? Is het nodig dat kleine bugfixes in de output blijvend getest worden? 
+Hierdoor wordt het lastiger om hoofd- en bijzaak van elkaar te onderscheiden, waardoor code-bases als deze al snel intimiderend groot worden. De complexiteit zit dan niet in de code (het bleef bij enkele views en modellen) maar juist in de hoeveelheid tests & text die ermee gepaard gaan. Heb je echt bij iedere functie 5 regels commentaar nodig met uitleg en verwijzing naar de intent? Is het nodig dat kleine bugfixes in de output blijvend getest worden? 
 
 Ik heb er bewust voor gekozen om een aantal tests, overbodige laravel configuratie opties, commentaar en de README drastisch terug te snoeien. Beperk het tot de essentie: wat moet de volgende developer (of jijzelf over een paar jaar) weten voordat deze aan de slag kan met deze codebase en denk goed na over wat er echt niet kapot mag gaan om zo de hoeveel tijd tests beperkt.
 

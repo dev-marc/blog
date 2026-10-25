@@ -25,15 +25,15 @@ De moderne manier werd Claude's [AI-native SDLC playbook](https://academy.claude
 
 Het doel was niet zozeer het omschrijven van een legacy-applicatie, maar vooral: kan ik deze werkwijze toepassen, vertrouwen hebben in het resultaat en uitleggen hoe het werkt? Hetzelfde als waar mijn studenten mee worstelen.
 
-## Het probleem 🤔
+## Het 'probleem' 🤔
 
 Het [Corso Archief](https://archief.corsozundert.nl/) is een relatief eenvoudige applicatie met enkele views waarin informatie & media over alle voorgaande corso's te vinden is. Het is een schat aan informatie voor de corsoliefhebber en ook erg leuk om in te grasduinen.
 
-De code was legacy PHP en met veel liefde geconstrueerd. De structuur was soms minder optimaal, en dat kwam de leesbaarheid en de performance niet altijd ten goede.
+Functioneel voldoet het huidige archief prima. De code is legacy PHP en met veel liefde geconstrueerd. De structuur is soms minder optimaal, en dat komt de leesbaarheid en de performance niet altijd ten goede.
 
 Ik was zelf niet belast met al te veel kennis van PHP dus dat vond ik alleen maar een betere reden om deze applicatie aan te pakken.
 
-## De werkwijze 🪏
+## Werkwijze 🪏
 
 Ik maakte een repo, kopieerde de legacy code in een aparte map en vertelde Claude over mijn intenties. Samen kwamen we tot de conclusie dat:
 
@@ -51,7 +51,7 @@ Voor iedere wijziging maakte ik m.b.v. Claude Code op mijn PC:
 
 En vervolgens liet ik Claude Code zijn werk doen en het uitprogrammeren.
 
-## Het resultaat en agentic workflow 🌺🤖
+## Resultaat en agentic workflow 🌺🤖
 
 Na twee intents en een paar uurtjes was de volledige oplossing herschreven door Claude. Indrukwekkend. Dit had mij minimaal een week gekost.
 

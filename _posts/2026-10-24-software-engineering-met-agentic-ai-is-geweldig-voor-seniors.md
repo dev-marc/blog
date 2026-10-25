@@ -121,7 +121,7 @@ Vertrouwen omdat ik het proces kon volgen, de tests begreep, de scope veilig had
 
 Uitleggen: deels. De werkwijze kan ik uitleggen. Of ik de code kan uitleggen, een stuk minder. Waar die verbinding met de database precies zit, moest ik nog steeds opzoeken.
 
-Het verschil met hoe ik voorheen een applicatie zou realiseren is interessant. "We can know more than we can tell", Een groot deel van wat een ervaren developer weet, is 'tacit knowledge': kennis die je niet kunt opschrijven, alleen kunt opbouwen door het te doen. 
+Het verschil met hoe ik voorheen een applicatie zou realiseren is interessant. "We can know more than we can tell", Een groot deel van wat een ervaren developer weet, is 'tacit knowledge': kennis die je niet kunt opschrijven, alleen kunt opbouwen door het te doen.
 
 In Laravel ben ik een beginner, of zelfs minder dan dat nog, maar in software engineering niet. Claude nam het beginnerswerk over, terwijl ik mijn ervaring en kennis over webdevelopment, cloudhosting op Azure en GitHub workflows inbracht... daarom werkte het voor mij.
 

@@ -116,7 +116,7 @@ Ik begon met drie vragen: kan ik deze werkwijze toepassen, heb ik vertrouwen in 
 
 Toepassen: ja. Dat ging sneller en beter dan ik had verwacht. Na een paar uur stond er een werkende applicatie. Na drie dagen konden beheerders via een GitHub issue zelf wijzigingen laten bouwen.
 
-Vertrouwen: ja, maar niet omdat ik een metaal model van de applicatie in mijn hoofd had door dat ik de code door- en door kende. 
+Vertrouwen: ja, maar niet omdat ik een mentaal model van de applicatie in mijn hoofd had door dat ik de code door- en door kende. 
 Vertrouwen omdat ik het proces kon volgen, de tests begreep, de scope veilig had afgebakend (guardrails, parity tests). Dat zijn geen PHP-vaardigheden. Ik vertrouw een applicatie pas als ik hem veilig in productie zou kunnen beheren en dat was hier het
 
 Uitleggen: deels. De werkwijze kan ik uitleggen. Of ik de code kan uitleggen, een stuk minder. Waar die verbinding met de database precies zit, moest ik nog steeds opzoeken.
